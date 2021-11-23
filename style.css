@@ -3,14 +3,17 @@ h1{color:grey;font-family:verdana}
 .maindiv {
     background-color:white;
     color:black;
-    line-height:30px;
     width:500px;
     padding:20px;
     padding-top:10;
     border-radius:25px;
     margin:auto;
 }
-.resultBox {
+.subdiv {
+line-height:30px;
+}
+.resultbox {
+line-height:10px;
 padding-left:30px;
 }
 
