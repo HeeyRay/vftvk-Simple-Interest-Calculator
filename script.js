@@ -9,11 +9,12 @@ function compute()
 {
      
     if(principal.value>=1){
-        document.getElementById("result").innerHTML="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+amount+",\<br\>in the year "+year+"\<br\>"
+          alert("Enter a positive number");
+          fname.focus();
     }
     else {
-        alert("Enter a positive number");
-        fname.focus();
+         document.getElementById("result").innerHTML="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+amount+",\<br\>in the year "+year+"\<br\>"
+
 }
 }
 
