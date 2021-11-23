@@ -6,10 +6,11 @@ h1{color:grey;font-family:verdana}
     line-height:30px;
     width:500px;
     padding:20px;
+    padding-top:10;
     border-radius:25px;
     margin:auto;
 }
 .resultBox {
-padding:20px;
+padding-left:30px;
 }
 
