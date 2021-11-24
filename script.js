@@ -7,7 +7,7 @@ function compute()
      var year = new Date().getFullYear()+parseInt(years);
      var amount = Number(interest); 
 
-    if(principal.value<=0){
+    if(Number(principal.value)<=0){
           alert("Enter a positive number");
           fname.focus();
     }
