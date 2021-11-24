@@ -13,6 +13,7 @@ h1{color:grey;font-family:verdana}
 line-height:30px;
 padding-left:80px;
 padding-bottom:10px;
+display: table;
 }
 .resultbox {
 line-height:18px;
@@ -22,3 +23,7 @@ mark {
   background-color: yellow;
   color: black;
 }
+
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; }
